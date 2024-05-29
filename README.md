@@ -6,7 +6,7 @@
  - Crystina (@crystdang)
  - Grace
  - Maggie (@zmjcan)
- - Rabia
+ - Rabia (@rabiaabdurrehman)
 
  ###
  - TA: Charu Jain
