@@ -19,4 +19,12 @@
     &__title{
         margin-top:6rem;
     }
+
+    &__subtitle{
+        font-size:1.5rem;
+        color:$maintext-color;
+        margin-top:1rem;
+        font-family: 'Tiempos Header';
+        font-weight:600;
+    }
 }

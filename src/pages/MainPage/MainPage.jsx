@@ -9,6 +9,7 @@ export default function MainPage() {
           className="main__logo"
           src="../../../src/assets/logos/ws-wordmark.svg"
         />
+        <h2 className="main__subtitle">origin stories</h2>
         <Link to="/2">
           <img
             className="main__feature"
