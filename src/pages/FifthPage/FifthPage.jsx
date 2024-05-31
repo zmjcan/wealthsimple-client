@@ -43,13 +43,7 @@ export default function FifthPage() {
                 to={`/heroes/${heroId}/villans/${villanId}/timelines/${timeline.id}`}
                 className="fifth__button"
               >
-                <img
-                  src={`
-                    timeline.id === 1
-                      ? "../../../src/assets/images/BeigeButton.png"
-                      : ${sageButton}
-                  `}
-                />
+                <img src={sageButton} />
               </Link>
               <h3>{timeline.timeline_value}</h3>
             </>
