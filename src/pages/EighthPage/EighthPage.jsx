@@ -1,5 +1,7 @@
 import "./EighthPage.scss";
 import { Link } from "react-router-dom";
+import feature1 from "../../../src/assets/images/video-preview2.png";
+import feature2 from "../../../src/assets/images/video-preview3.png";
 
 export default function EighthPage() {
   return (
@@ -15,7 +17,7 @@ export default function EighthPage() {
           <Link to="">
             <img
               className="eighth__feature1"
-              src="../../../src/assets/images/video-preview2.png"
+              src={feature1}
             />
           </Link>
           <div className="eighth__subtitle">
@@ -25,7 +27,7 @@ export default function EighthPage() {
           <Link to="">
             <img
               className="eighth__feature2"
-              src="../../../src/assets/images/video-preview3.png"
+              src={feature2}
             />
           </Link>
         </div>
