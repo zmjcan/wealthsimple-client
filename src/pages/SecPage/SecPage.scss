@@ -3,20 +3,13 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-.main{
+.hero-container{
     @include flex(center,center);
-    flex-direction: column;
+    flex-direction:column;
+}
 
-    &__logo{
-        width:50%;
-        margin-top:8.75rem;
-    }
-
-    &__feature{
-        margin-top:6.25rem;
-    }
-
-    &__title{
-        margin-top:6rem;
-    }
+.sec-title{
+    @include flex(center,center);
+    flex-direction:column;
+    margin-bottom:2.5rem;
 }

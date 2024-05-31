@@ -1,0 +1,28 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.fifth {
+  &__container {
+    @include flex(center, center);
+    flex-direction: column;
+    background-image: url("../../../src/assets/images/line.png");
+    background-repeat: no-repeat;
+    margin-left:12rem;
+  }
+
+  &__title {
+    @include flex(center, center);
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    
+  }
+
+  &__button{
+    background-color: #FFFFFF;
+    border:none;
+    margin-top:0.5rem;
+    margin-left:-12rem;
+  }
+}

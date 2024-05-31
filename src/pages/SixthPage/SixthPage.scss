@@ -3,7 +3,7 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-.main{
+.sixth{
     @include flex(center,center);
     flex-direction: column;
 
@@ -17,6 +17,12 @@
     }
 
     &__title{
-        margin-top:6rem;
+        margin-top:8.45rem;
+    }
+
+    &__container{
+        @include flex(flex-start,flex-start);
+        flex-direction:column;
+        align-items: center;
     }
 }

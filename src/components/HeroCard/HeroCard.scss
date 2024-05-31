@@ -1,0 +1,47 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.herocard {
+  &__1{
+  width: 21rem;
+  height: 8.625rem;
+  @include flex(center, center);
+  flex-direction: column;
+  background: url("../../src/assets/images/hero-1.png");
+  background-repeat: none;
+  margin-top:1rem;
+  }
+
+  &__2{
+    width: 21rem;
+    height: 8.625rem;
+    @include flex(center, center);
+    flex-direction: column;
+    background: url("../../src/assets/images/hero-2.png");
+    background-repeat: none;
+    margin-top:1rem;
+    }
+
+    &__3{
+      width: 21rem;
+      height: 8.625rem;
+      @include flex(center, center);
+      flex-direction: column;
+      background: url("../../src/assets/images/hero-3.png");
+      background-repeat: none;
+      margin-top:1rem;
+      }
+
+      &__4{
+        width: 21rem;
+        height: 8.625rem;
+        @include flex(center, center);
+        flex-direction: column;
+        background: url("../../src/assets/images/hero-4.png");
+        background-repeat: none;
+        margin-top:1rem;
+        }
+}
+
