@@ -13,3 +13,18 @@
   background-repeat: none;
   margin-top: 1rem;
 }
+
+.flipcard{
+
+    &__title{
+        @include flex(center,center);
+        margin-top:2rem;
+        text-align: center;
+    }
+
+    &__description{
+        @include flex(center,center);
+        margin-bottom:4rem;
+        text-align:center;
+    }
+}

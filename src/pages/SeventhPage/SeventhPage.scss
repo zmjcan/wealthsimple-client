@@ -5,14 +5,15 @@
 
 .sev {
   &-container {
-    @include flex(center, center);
-    flex-direction: column;
+    // @include flex(center, center);
+    // flex-direction: column;
+    margin-left:30%;
   }
 
   &-title {
     @include flex(center, center);
     flex-direction: column;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   &-herocard{
