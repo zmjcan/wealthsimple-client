@@ -3,12 +3,12 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-.hero-container{
+.heroes__container{
     @include flex(center,center);
     flex-direction:column;
 }
 
-.sec-title{
+.heroes__title{
     @include flex(center,center);
     flex-direction:column;
     margin-bottom:2.5rem;

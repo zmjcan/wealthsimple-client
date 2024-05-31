@@ -1,23 +1,17 @@
 import "./MainPage.scss";
 import { Link } from "react-router-dom";
+import logo from "../../../src/assets/logos/ws-wordmark.svg";
+import feature from "../../../src/assets/images/cover-batman.png";
 
 export default function MainPage() {
   return (
-    <>
-      <div className="main">
-        <img
-          className="main__logo"
-          src="../../../src/assets/logos/ws-wordmark.svg"
-        />
-        <h2 className="main__subtitle">origin stories</h2>
-        <Link to="/2">
-          <img
-            className="main__feature"
-            src="../../../src/assets/images/cover-batman.png"
-          />
-        </Link>
-        <h2 className="main__title">enter your origin story...</h2>
-      </div>
-    </>
+    <main className="main">
+      <img className="main__logo" src={logo} />
+      <h2 className="main__subtitle">Origin Stories</h2>
+      <Link to="/heroes">
+        <img className="main__feature" src={feature} />
+      </Link>
+      <h2 className="main__title">Enter Your Origin Story...</h2>
+    </main>
   );
 }
