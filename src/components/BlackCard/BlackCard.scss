@@ -1,0 +1,30 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.blackcard {
+  color: #ffffff;
+  width: 21rem;
+  height: 8.625rem;
+  @include flex(center, center);
+  flex-direction: column;
+  background: url("../../src/assets/images/blackcard.png");
+  background-repeat: none;
+  margin-top: 1rem;
+}
+
+.flipcard{
+
+    &__title{
+        @include flex(center,center);
+        margin-top:2rem;
+        text-align: center;
+    }
+
+    &__description{
+        @include flex(center,center);
+        margin-bottom:4rem;
+        text-align:center;
+    }
+}

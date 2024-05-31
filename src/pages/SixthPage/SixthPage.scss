@@ -3,7 +3,7 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-.main{
+.sixth{
     @include flex(center,center);
     flex-direction: column;
 
@@ -17,14 +17,12 @@
     }
 
     &__title{
-        margin-top:6rem;
+        margin-top:8.45rem;
     }
 
-    &__subtitle{
-        font-size:1.5rem;
-        color:$maintext-color;
-        margin-top:1rem;
-        font-family: 'Tiempos Header';
-        font-weight:600;
+    &__container{
+        @include flex(flex-start,flex-start);
+        flex-direction:column;
+        align-items: center;
     }
 }

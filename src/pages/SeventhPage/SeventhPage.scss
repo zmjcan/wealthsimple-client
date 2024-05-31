@@ -1,0 +1,22 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.sev {
+  &-container {
+    // @include flex(center, center);
+    // flex-direction: column;
+    margin-left:30%;
+  }
+
+  &-title {
+    @include flex(center, center);
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  &-herocard{
+    background-color: #32302F;
+  }
+}

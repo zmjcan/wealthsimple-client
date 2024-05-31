@@ -1,0 +1,61 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.villaincard {
+  &__title {
+    color: #ffffff;
+  }
+
+  &__1 {
+    font-weight:600;
+    width: 21.25rem;
+    height: 8.625rem;
+    @include flex(center, center);
+    flex-direction: column;
+    background-repeat: none;
+    margin-top: 1rem;
+    background: url("../../src/assets/images/villain-1.png");
+  }
+
+  &__2 {
+    width: 21.25rem;
+    height: 8.625rem;
+    @include flex(center, center);
+    flex-direction: column;
+    background-repeat: none;
+    margin-top: 1rem;
+    background: url("../../src/assets/images/villain-2.png");
+  }
+
+  &__3 {
+    width: 21.25rem;
+    height: 8.625rem;
+    @include flex(center, center);
+    flex-direction: column;
+    background-repeat: none;
+    margin-top: 1rem;
+    background: url("../../src/assets/images/villain-3.png");
+  }
+
+  &__4 {
+    width: 21.25rem;
+    height: 8.625rem;
+    @include flex(center, center);
+    flex-direction: column;
+    background-repeat: none;
+    margin-top: 1rem;
+    background: url("../../src/assets/images/villain-4.png");
+  }
+
+  &__5 {
+    width: 21.25rem;
+    height: 8.625rem;
+    @include flex(center, center);
+    flex-direction: column;
+    background-repeat: none;
+    margin-top: 1rem;
+    background: url("../../src/assets/images/villain-5.png");
+  }
+}
