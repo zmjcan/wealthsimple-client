@@ -15,7 +15,7 @@
 ### To run this project:
 - run our backend server in node environment (reach out for access)
 - npm install
-- run dev
+- npm run dev
 
 ## Mockups:
 
