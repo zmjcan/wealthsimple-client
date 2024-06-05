@@ -21,11 +21,11 @@
 
 ### desktop:
 
- <img src="./src/assets/mockups/Desktop-1.png" alt="desktop view mockup" width="786"/>
+ <img src="./src/assets/mockups/Desktop-1.png" alt="desktop view mockup" width="400"/>
 
-<img src="./src/assets/mockups/Desktop-2.png" alt="desktop view mockup" width="786"/>
+<img src="./src/assets/mockups/Desktop-2.png" alt="desktop view mockup" width="400"/>
 
-<img src="./src/assets/mockups/Darkmode-1.png" alt="dark mode mockup" width="786"/>
+<img src="./src/assets/mockups/Darkmode-1.png" alt="dark mode mockup" width="400"/>
 
 ### mobile:
 
